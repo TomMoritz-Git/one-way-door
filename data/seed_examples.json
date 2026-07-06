@@ -1,0 +1,38 @@
+[
+  {
+    "structure": "one_way_door_with_escape",
+    "domain_hint": "mixing paint",
+    "text": "I'm mixing a custom grey for an accent wall and it's coming out too light. I'm tempted to squeeze in a big glug of black tint to darken it fast so I can start rolling before the light goes.",
+    "action_text": "Add the tint a few drops at a time, stirring and testing on a scrap between each, instead of one big pour.",
+    "demos": "Add the black tint a few drops at a time, stirring and testing it on a scrap board between each addition. Don't pour in a big glug all at once.",
+    "placebo": "Grey is one of the trickiest colors to dial in, and an accent wall really sets the mood of a whole room, so it's worth landing on the exact shade you pictured. Keep a steady hand and a good light on your work as you go — you clearly have a vision for the space. Add the black tint a few drops at a time, stirring and testing it on a scrap board between each addition.",
+    "why": "Darkening paint is a one-way door: you can always add more black, but you can't lighten it back without remixing the whole batch. A test swatch is reversible; an over-tinted bucket isn't. So spend the cheap, reversible step now: add the tint a few drops at a time, stirring and testing on a scrap between each, instead of one big glug that a five-minute rush can't take back."
+  },
+  {
+    "structure": "one_way_door_with_escape",
+    "domain_hint": "posting online in anger",
+    "text": "Someone left a nasty, unfair review of my small business. I've typed out a furious public reply and my finger is hovering over the post button.",
+    "action_text": "Save the reply as a draft and wait a few hours before deciding whether to post it.",
+    "demos": "Save it as a draft and wait a few hours — ideally until tomorrow — before you decide whether to post it.",
+    "placebo": "An unfair review stings, especially when you've poured yourself into a small business and someone misrepresents it in public. Grab a coffee, get some air, and come back to it once the day has settled a little and you can look at it fresh. Save the reply as a draft and wait a few hours — ideally until tomorrow — before deciding whether to post it.",
+    "why": "A public reply is a one-way door: screenshots and caches mean you can't truly unsend it, and an angry tone sticks to your business long after the dispute. Waiting costs nothing and is fully reversible — you can always post later — while posting in anger can't be taken back. So take the reversible pause first: save the reply as a draft and sit on it for a few hours before deciding to post."
+  },
+  {
+    "structure": "delay_is_the_door",
+    "domain_hint": "burst pipe",
+    "text": "Water is spraying from a burst pipe under my sink and pooling across the floor. My instinct is to first look up a plumber and read some reviews before I touch anything.",
+    "action_text": "Shut off the water valve now, then research the plumber afterward.",
+    "demos": "Turn off the shut-off valve under the sink right now to stop the water. Find a plumber after the flow is stopped.",
+    "placebo": "Burst pipes are alarming and they always seem to strike at the worst possible moment. Once the water is stopped you'll have room to take stock and plan your next move, so stay calm and mind your footing on the wet floor. Turn off the shut-off valve under the sink right now to stop the water, then look for a plumber once the flow has stopped.",
+    "why": "Here waiting is the one-way door: every minute the water runs does irreversible damage to the floor and cabinets, while closing the valve is instantly reversible — you can turn it back on. When delay is the thing you can't undo, act first and deliberate second. So turn off the shut-off valve right now, and research the plumber afterward."
+  },
+  {
+    "structure": "false_door",
+    "domain_hint": "switching a slide template",
+    "text": "I've spent two days on a deck and I want to switch it to a cleaner template, but I'm terrified it'll scramble all my formatting and I'll lose the work. I'm tempted to just give up on the redesign and present the dated old version.",
+    "action_text": "Go ahead and apply the new template now, then refine from there.",
+    "demos": "Apply the new template now and then go through the slides to tidy up anything that shifted.",
+    "placebo": "Two days of work is a real investment, and it's natural to feel protective of the hours you've put in. A cleaner template will probably help the whole deck land better with your audience, so trust the instinct that made you want the refresh in the first place. Apply the new template now, then go through the slides to tidy up anything that shifted.",
+    "why": "This feels like a one-way door but isn't: the deck keeps full version history and autosave, so if the new look is worse you revert in a single click. The escape hatch already exists, so the fear of 'losing everything' is misplaced — proceeding costs you nothing you can't recover. So go ahead and apply the new template now, then tidy up afterward."
+  }
+]

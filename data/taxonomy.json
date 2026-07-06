@@ -1,0 +1,59 @@
+{
+  "_README": "Two-tier taxonomy. Tier 1 (situation_structures) is the ONLY axis the correct action depends on: it sets the 2-class label (reversible_first vs commit_now). Tier 2 (irreversibility_types, traps, perspectives, domains) are DECOYS -- sampled independently of the structure and balanced within each label so no surface cue predicts the answer; the only way to score is to read the structure, which is the principle. reversible_moves are recorded per dilemma, not balanced. The train/held-out split is NOT baked in here: config.HELDOUT_AXIS picks which decoy axis to hold out (domain / perspective / irreversibility_type) and config.HELDOUT_VALUES reserves values of it for the out-of-distribution eval.",
+
+  "situation_structures": [
+    {"name": "one_way_door_with_escape", "action": "reversible_first", "gloss": "A genuine one-way door with a cheap reversible move available: do the reversible thing first (taste, draft, back up, test small)."},
+    {"name": "delay_is_the_door", "action": "commit_now", "gloss": "Waiting is itself the irreversible harm -- delay is the one-way door (the wound bleeds, the data leaks, the chance passes). Act now."},
+    {"name": "false_door", "action": "commit_now", "gloss": "The step FEELS permanent but is actually recoverable (version history, backups, regrowth, refunds), so the rush-fear is misplaced. Proceed now."}
+  ],
+
+  "irreversibility_types": [
+    "destruction",
+    "disclosure",
+    "depletion",
+    "commitment",
+    "mixing",
+    "bodily",
+    "severance"
+  ],
+
+  "traps": [
+    "hot_emotion",
+    "time_pressure",
+    "social_pressure",
+    "sunk_cost",
+    "false_confidence",
+    "scarcity"
+  ],
+
+  "perspectives": [
+    {"name": "first_person", "gloss": "The person describes their own situation in the first person ('I'm about to...')."},
+    {"name": "advising_friend", "gloss": "The person describes a friend's situation and is deciding what to tell them."},
+    {"name": "professional_role", "gloss": "The person acts in a professional role (clinician, manager, engineer) facing a decision about someone they are responsible for."},
+    {"name": "observer", "gloss": "A neutral third-person account of someone facing the decision."}
+  ],
+
+  "domains": [
+    {"name": "cooking", "blurb": "seasoning, prepping, and adjusting food"},
+    {"name": "money", "blurb": "spending, saving, investing, and financial commitments"},
+    {"name": "technology", "blurb": "code, data, devices, and digital systems"},
+    {"name": "career", "blurb": "jobs, hiring, quitting, and workplace moves"},
+    {"name": "home_diy", "blurb": "building, repairing, and renovating around the house"},
+    {"name": "creative", "blurb": "writing, design, art, and creative projects"},
+    {"name": "gardening", "blurb": "planting, pruning, and tending a garden"},
+    {"name": "education", "blurb": "studying, exams, applications, and learning choices"},
+    {"name": "health", "blurb": "medical and bodily decisions"},
+    {"name": "relationships", "blurb": "messages, confrontations, and personal ties"},
+    {"name": "travel", "blurb": "bookings, itineraries, and trips"},
+    {"name": "legal", "blurb": "contracts, filings, and binding agreements"}
+  ],
+
+  "reversible_moves": [
+    "sample",
+    "delay",
+    "back_up",
+    "stage_canary",
+    "do_less",
+    "reserve_option"
+  ]
+}
