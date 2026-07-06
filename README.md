@@ -8,7 +8,8 @@ We teach one concrete principle — **favor reversible actions; when a choice is
 one-way door, slow down** (you can always add more salt, you can't take it out) —
 and ask whether a small model carries it into domains it never trained on.
 
-Full write-up: *(blog post forthcoming)*.
+Full write-up: [*The reason generalizes, the rule
+doesn't*](https://tommoritz-git.github.io/blog/the-reason-generalizes/).
 
 ## How it works
 
